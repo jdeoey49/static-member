@@ -1,7 +1,7 @@
 #include<iostream>
 #include "StaticVariableClass.h"
 using namespace std;
-int StaticVariableClass::count_ = 0;
+int StaticVariableClass::count_ = 0;//static member variable must be declare as a global variable
 int main()
 {
 	StaticVariableClass a;
